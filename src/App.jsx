@@ -9,6 +9,9 @@ function App() {
 
   return (
     <div>
+
+      <h1>총합: {count1 + count2}</h1>
+
       <Counter
       count = {count1}
       onLIncrement = {() => setCount1(prev => prev + 1) }/>
